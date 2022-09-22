@@ -1,16 +1,15 @@
 {
   "files": {
-    "main.css": "/japan_avto_rostov/static/css/main.c9634cbd.css",
-    "main.js": "/japan_avto_rostov/static/js/main.0127256f.js",
+    "main.css": "/japan_avto_rostov/static/css/main.d42406e1.css",
+    "main.js": "/japan_avto_rostov/static/js/main.a7387992.js",
     "static/js/787.adc66e27.chunk.js": "/japan_avto_rostov/static/js/787.adc66e27.chunk.js",
-    "static/media/logo.svg": "/japan_avto_rostov/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/japan_avto_rostov/index.html",
-    "main.c9634cbd.css.map": "/japan_avto_rostov/static/css/main.c9634cbd.css.map",
-    "main.0127256f.js.map": "/japan_avto_rostov/static/js/main.0127256f.js.map",
+    "main.d42406e1.css.map": "/japan_avto_rostov/static/css/main.d42406e1.css.map",
+    "main.a7387992.js.map": "/japan_avto_rostov/static/js/main.a7387992.js.map",
     "787.adc66e27.chunk.js.map": "/japan_avto_rostov/static/js/787.adc66e27.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c9634cbd.css",
-    "static/js/main.0127256f.js"
+    "static/css/main.d42406e1.css",
+    "static/js/main.a7387992.js"
   ]
 }
