@@ -1,4 +1,30 @@
 .Header {
-  background-color: #16222e;
   min-height: 500px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+
+  &__menu-container {
+    max-width: 1400px;
+  }
+
+  &__top-menu-container {
+    max-width: 1400px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  &__menu {
+    background-color: #ffffff;
+  }
+
+  &__top-menu {
+    background-color: #eff0f0;
+  }
+
+  &__title {
+    color: #737373;
+  }
 }
