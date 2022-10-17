@@ -2,7 +2,8 @@ import "./Header.scss";
 import map from "../../images/map.svg";
 import clock from "../../images/clock.svg";
 import Whatsapp from "../../images/Whatsapp.svg";
-import Logo from "./Logo/Logo";
+
+import imgLogo from "../../images/logo.svg"
 
 function Header() {
   return (
@@ -21,7 +22,14 @@ function Header() {
 
       <div className="Header__menu">
         <div className="Header__menu-container">
-            <Logo></Logo>
+          <img alt="логотип" src={imgLogo}/>
+          <h2><h2>10 лет</h2>превосходим ваши ожидания</h2>
+          <a href="#">Подбор авто</a>
+          <a href="#">О компании</a>
+          <a href="#">Отзывы</a>
+          <a href="#">Контакты</a>
+
+            
 
         </div>
       </div>
