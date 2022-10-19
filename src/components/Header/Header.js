@@ -23,7 +23,7 @@ function Header() {
       <div className="Header__menu">
         <div className="Header__menu-container">
           <img alt="логотип" src={imgLogo}/>
-          <h2><h2>10 лет</h2>превосходим ваши ожидания</h2>
+          <h2><span>10 лет</span>превосходим ваши ожидания</h2>
           <a href="#">Подбор авто</a>
           <a href="#">О компании</a>
           <a href="#">Отзывы</a>
