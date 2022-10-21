@@ -4,6 +4,8 @@ import clock from "../../images/clock.svg";
 import Whatsapp from "../../images/Whatsapp.svg";
 
 import imgLogo from "../../images/logo.svg"
+import phone from "../../images/phone.svg"
+import GeneralButton from "../elements/GeneralButton/GeneralButton";
 
 function Header() {
   return (
@@ -28,6 +30,13 @@ function Header() {
           <a href="#">О компании</a>
           <a href="#">Отзывы</a>
           <a href="#">Контакты</a>
+          <div>
+            <img alt="телефон" src={phone}/><h3>+7 (800) 551-94-31</h3>
+
+
+          </div>
+          <GeneralButton type="submit" text="нажми меня" ></GeneralButton>
+
 
             
 

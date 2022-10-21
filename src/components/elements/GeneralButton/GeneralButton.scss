@@ -1,0 +1,19 @@
+.GeneralButton {
+  background: #ca0100;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  color: #ffffff;
+  min-height: 50px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.GeneralButton:hover {
+  background: #a90100;
+}
