@@ -1,23 +1,25 @@
 {
   "files": {
-    "main.css": "/japan_avto_rostov/static/css/main.66bdef04.css",
-    "main.js": "/japan_avto_rostov/static/js/main.8d9b8b6c.js",
+    "main.css": "/japan_avto_rostov/static/css/main.591a46b0.css",
+    "main.js": "/japan_avto_rostov/static/js/main.649778be.js",
     "static/js/787.adc66e27.chunk.js": "/japan_avto_rostov/static/js/787.adc66e27.chunk.js",
+    "static/media/orig.webp": "/japan_avto_rostov/static/media/orig.b1fce935f68868f1f6bb.webp",
     "static/media/logo.svg": "/japan_avto_rostov/static/media/logo.682a73cc85cf59f6a2e282529a90786d.svg",
-    "static/media/Whatsapp.svg": "/japan_avto_rostov/static/media/Whatsapp.2fd1291768882693913e.svg",
-    "static/media/gren-WA.svg": "/japan_avto_rostov/static/media/gren-WA.287e635b3b829481b785.svg",
+    "static/media/Whatsapp.svg": "/japan_avto_rostov/static/media/Whatsapp.2fd1291768882693913e70601e24488e.svg",
+    "static/media/gren-WA.svg": "/japan_avto_rostov/static/media/gren-WA.287e635b3b829481b785aabde6df7cd9.svg",
     "static/media/map.svg": "/japan_avto_rostov/static/media/map.fddd3796529d59186815.svg",
     "static/media/phone.svg": "/japan_avto_rostov/static/media/phone.d44179f29e573a70af8f95fb88e767bf.svg",
     "index.html": "/japan_avto_rostov/index.html",
+    "static/media/next.svg": "/japan_avto_rostov/static/media/next.4227564ccf0b37bbb5503bdaef88cb02.svg",
     "static/media/chevron.svg": "/japan_avto_rostov/static/media/chevron.e52102f0c9f29b67ac60ab10c88c0016.svg",
     "static/media/clock.svg": "/japan_avto_rostov/static/media/clock.1ecbf5fecec9c5a3b3be.svg",
     "static/media/burgerM.svg": "/japan_avto_rostov/static/media/burgerM.ced1eceeea5d13648004b00e64bce1e7.svg",
-    "main.66bdef04.css.map": "/japan_avto_rostov/static/css/main.66bdef04.css.map",
-    "main.8d9b8b6c.js.map": "/japan_avto_rostov/static/js/main.8d9b8b6c.js.map",
+    "main.591a46b0.css.map": "/japan_avto_rostov/static/css/main.591a46b0.css.map",
+    "main.649778be.js.map": "/japan_avto_rostov/static/js/main.649778be.js.map",
     "787.adc66e27.chunk.js.map": "/japan_avto_rostov/static/js/787.adc66e27.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.66bdef04.css",
-    "static/js/main.8d9b8b6c.js"
+    "static/css/main.591a46b0.css",
+    "static/js/main.649778be.js"
   ]
 }
