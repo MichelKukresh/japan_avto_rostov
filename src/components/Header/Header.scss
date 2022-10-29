@@ -1,30 +1,150 @@
 .Header {
-  min-height: 500px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 16px;
+  width: 100%;
+  z-index: 13;
+  transition: all 0.5s;
 
   &__menu-container {
     max-width: 1400px;
-  }
-
-  &__top-menu-container {
-    max-width: 1400px;
-    display: flex;
-    flex-direction: row;
-  }
-
-  &__menu {
+    border-radius: 0 0 4px 4px;
     background-color: #ffffff;
   }
 
-  &__top-menu {
-    background-color: #eff0f0;
+  &__menu {
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
   }
 
-  &__title {
+  &__title-whatsapp {
     color: #737373;
+    position: relative;
+    cursor: pointer;
+  }
+
+  &__title-whatsapp::before {
+    content: url("../../images/Whatsapp.svg");
+    left: -24px;
+    position: absolute;
+    width: 30px;
+    text-align: left;
+  }
+
+  &__title-whatsapp:hover:before {
+    content: url("../../images/gren-WA.svg");
+  }
+
+  &__title-time {
+    color: #737373;
+    position: relative;
+  }
+
+  &__title-time::before {
+    content: url("../../images/clock.svg");
+    left: -24px;
+    position: absolute;
+    width: 30px;
+    text-align: left;
+  }
+
+  &__title-map {
+    color: #737373;
+    position: relative;
+    margin-left: 25px;
+  }
+
+  &__title-map::before {
+    content: url("../../images/map.svg");
+
+    left: -24px;
+    position: absolute;
+    width: 30px;
+    text-align: left;
+  }
+
+  &__menu-pages {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__menu-select {
+    display: flex;
+  }
+
+  &__headers {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: left;
+    max-width: 205px;
+  }
+
+  &__link {
+    text-decoration: none;
+    color: #262626;
+    align-self: center;
+    margin-right: 16px;
+  }
+
+  &__link:hover {
+    color: #ca0100;
+  }
+
+  &__phone {
+    color: #737373;
+    position: relative;
+    cursor: pointer;
+    margin: 0;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: right;
+    text-transform: uppercase;
+  }
+
+  &__text-addition {
+    color: #737373;
+    position: relative;
+    cursor: pointer;
+    margin: 0;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: right;
+    text-transform: none;
+  }
+
+  &__whatsapp {
+    background-image: url("../../images/gren-WA.svg");
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+    cursor: pointer;
+  }
+}
+
+
+@media (max-width: 1280px) {
+  .Header {
+    &__headers{
+      display: none;
+    }
+
+  }
+}
+
+@media (max-width: 1060px) {
+  .Header {
+    &__link{
+      display: none;
+    }
+
   }
 }

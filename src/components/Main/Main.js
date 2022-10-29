@@ -1,12 +1,15 @@
+
 import "./Main.scss"
+import Promo from "./Promo/Promo";
 
 function Main() {
     return(
-        <div className="Main">
-
-            Майн 
-
-        </div>
+        <main className="Main">
+        <Promo></Promo>
+        
+        
+        
+        </main>
     )
 }
 

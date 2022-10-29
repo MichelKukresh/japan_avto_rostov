@@ -1,0 +1,65 @@
+.SelectMenu {
+  margin: 0 auto;
+  position: relative;
+  max-width: 200px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: uppercase;
+}
+.SelectMenu.is-active .SelectMenu__body {
+  display: block;
+}
+
+.SelectMenu__header {
+  cursor: pointer;
+  display: flex;
+}
+.SelectMenu__current {
+  width: 100%;
+
+  padding: 8px;
+  align-self: center;
+}
+
+.SelectMenu__header:hover {
+  color: #ca0100;
+}
+
+.SelectMenu__icon {
+  align-items: center;
+  display: flex;
+  flex-shrink: 0;
+  justify-content: center;
+  height: 31px;
+  margin-left: auto;
+  text-align: center;
+  width: 31px;
+
+  &_transform {
+    transform: rotate(180deg);
+  }
+}
+
+.SelectMenu__body {  
+  border-top: 0;
+  display: none;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 100%;
+}
+.SelectMenu__item {
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 8px;
+  background-color: #ffffff;
+  padding-right: 39px;
+}
+
+.SelectMenu__item:hover {
+  color: #ca0100;
+}
