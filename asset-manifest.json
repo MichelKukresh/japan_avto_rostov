@@ -1,26 +1,30 @@
 {
   "files": {
-    "main.css": "/japan_avto_rostov/static/css/main.91cc0207.css",
-    "main.js": "/japan_avto_rostov/static/js/main.07f79a54.js",
+    "main.css": "/japan_avto_rostov/static/css/main.215b3dde.css",
+    "main.js": "/japan_avto_rostov/static/js/main.1766859c.js",
     "static/js/787.adc66e27.chunk.js": "/japan_avto_rostov/static/js/787.adc66e27.chunk.js",
     "static/media/orig.webp": "/japan_avto_rostov/static/media/orig.b1fce935f68868f1f6bb.webp",
+    "static/media/logo2.svg": "/japan_avto_rostov/static/media/logo2.c448f887abf69f5dee0abb8f183ffc3c.svg",
     "static/media/logo.svg": "/japan_avto_rostov/static/media/logo.682a73cc85cf59f6a2e282529a90786d.svg",
-    "static/media/logo2.svg": "/japan_avto_rostov/static/media/logo2.c53cf3f420d9876fbeec41e8cedb78cf.svg",
-    "static/media/Whatsapp.svg": "/japan_avto_rostov/static/media/Whatsapp.2fd1291768882693913e70601e24488e.svg",
+    "static/media/Whatsapp.svg": "/japan_avto_rostov/static/media/Whatsapp.2fd1291768882693913e.svg",
     "static/media/gren-WA.svg": "/japan_avto_rostov/static/media/gren-WA.287e635b3b829481b785aabde6df7cd9.svg",
     "static/media/map.svg": "/japan_avto_rostov/static/media/map.fddd3796529d59186815.svg",
     "static/media/phone.svg": "/japan_avto_rostov/static/media/phone.d44179f29e573a70af8f95fb88e767bf.svg",
+    "static/media/RedPhone.svg": "/japan_avto_rostov/static/media/RedPhone.ed0eb091695a13f3aea97ee4f01f39d2.svg",
     "index.html": "/japan_avto_rostov/index.html",
     "static/media/next.svg": "/japan_avto_rostov/static/media/next.4227564ccf0b37bbb5503bdaef88cb02.svg",
     "static/media/chevron.svg": "/japan_avto_rostov/static/media/chevron.e52102f0c9f29b67ac60ab10c88c0016.svg",
     "static/media/clock.svg": "/japan_avto_rostov/static/media/clock.1ecbf5fecec9c5a3b3be.svg",
+    "static/media/BurgerL.svg": "/japan_avto_rostov/static/media/BurgerL.8e3a3c9ef5ccec8f9ffb.svg",
     "static/media/burgerM.svg": "/japan_avto_rostov/static/media/burgerM.ced1eceeea5d13648004b00e64bce1e7.svg",
-    "main.91cc0207.css.map": "/japan_avto_rostov/static/css/main.91cc0207.css.map",
-    "main.07f79a54.js.map": "/japan_avto_rostov/static/js/main.07f79a54.js.map",
+    "static/media/EllipseNoActiv.svg": "/japan_avto_rostov/static/media/EllipseNoActiv.edc6da2a54f63ce5708ea60dd8646565.svg",
+    "static/media/EllipseA.svg": "/japan_avto_rostov/static/media/EllipseA.3cb23ed8ce7cac44574435a256e40f66.svg",
+    "main.215b3dde.css.map": "/japan_avto_rostov/static/css/main.215b3dde.css.map",
+    "main.1766859c.js.map": "/japan_avto_rostov/static/js/main.1766859c.js.map",
     "787.adc66e27.chunk.js.map": "/japan_avto_rostov/static/js/787.adc66e27.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.91cc0207.css",
-    "static/js/main.07f79a54.js"
+    "static/css/main.215b3dde.css",
+    "static/js/main.1766859c.js"
   ]
 }
