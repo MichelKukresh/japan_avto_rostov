@@ -14,11 +14,15 @@
     background-color: #ffffff;
   }
 
+  &__logo {
+    height: 64px;
+  }
+
   &__menu {
     max-width: 1400px;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 20px;
+    //padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 20px;
     padding-top: 20px;
@@ -128,23 +132,64 @@
     background-size: cover;
     cursor: pointer;
   }
-}
 
+  &__call {
+    width: 30px;
+    display: none;
+  }
+}
 
 @media (max-width: 1280px) {
   .Header {
-    &__headers{
+    &__headers {
       display: none;
     }
-
   }
 }
 
 @media (max-width: 1060px) {
   .Header {
-    &__link{
+    &__link {
+      display: none;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .Header {
+    &__phone {
+      font-size: 18px;
+      line-height: 21px;
+    }
+    &__text-addition {
+      display: none;
+    }
+    &__button_not-visible {
+      display: none;
+    }
+    &__logo {
+      height: 55px;
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .Header {
+    &__phone {
       display: none;
     }
 
+    &__call {
+      //width: 30px;
+      display: block;
+    }
+    &__logo {
+      height: 45px;
+    }
+
+    &__menu {
+      padding-right: 15px;
+      
+    }
   }
 }

@@ -1,0 +1,140 @@
+.Services {
+  font-family: "Roboto";
+  font-style: normal;
+  width: 96%;
+  border-radius: 25px;
+  max-width: 1400px;
+
+  display: flex;
+  flex-direction: column;
+
+  &__title {
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 82px;
+    text-align: left;
+    border-bottom: 1px solid #eff0f0;
+    padding-bottom: 14px;
+  }
+
+  &__discription {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    max-width: 800px;
+    text-align: left;
+    margin-top: 8px;
+    margin-bottom: 45px;
+  }
+
+  &__lists {
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(412px, 412px));
+    //row-gap: 35px;
+    column-gap: 60px;
+    list-style-type: none;
+    padding: 0;
+  }
+
+  &__lists-item {
+    text-align: left;
+  }
+
+  &__lists-title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    position: relative;
+    margin-left: 50px;
+    margin-top: 10px;
+  }
+
+  &__lists-title::before {
+    content: "";
+    position: absolute;
+    left: -50px;
+    top: 10px;
+    width: 31px;
+    height: 8px;
+    background: #ca0100;
+  }
+
+  &__lists-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #737373;
+  }
+}
+
+@media (max-width: 768px) {
+  .Services {
+    &__title {
+      font-size: 36px;
+      line-height: 42px;
+    }
+
+    &__discription {
+      font-size: 15px;
+      line-height: 22px;
+      margin-top: 5px;
+      margin-bottom: 29px;
+    }
+
+    &__lists-description {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 150%;
+    }
+
+    &__lists-title {
+      font-size: 22px;
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .Services {
+    margin-top: 50px;
+
+    &__title {
+      font-weight: 700;
+      font-size: 30px;
+      line-height: 35px;
+    }
+
+    &__discription {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 150%;
+    }
+
+    &__lists-title {
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 23px;
+      margin-left: 40px;
+    }
+
+    &__lists-title::before {
+      content: "";
+      position: absolute;
+      left: -40px;
+      top: 10px;
+      width: 25px;
+      height: 6px;
+      background: #ca0100;
+    }
+
+    &__lists-description {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 150%;
+    }
+
+    &__lists {
+      grid-template-columns: repeat(auto-fit, minmax(283px, 391px));
+    }
+  }
+}
