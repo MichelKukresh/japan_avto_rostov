@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/japan_avto_rostov/static/css/main.a0f04b5d.css",
-    "main.js": "/japan_avto_rostov/static/js/main.8f97fc84.js",
+    "main.css": "/japan_avto_rostov/static/css/main.c307a873.css",
+    "main.js": "/japan_avto_rostov/static/js/main.2636d6d7.js",
     "static/js/787.adc66e27.chunk.js": "/japan_avto_rostov/static/js/787.adc66e27.chunk.js",
     "static/media/orig.webp": "/japan_avto_rostov/static/media/orig.b1fce935f68868f1f6bb.webp",
     "static/media/logo2.svg": "/japan_avto_rostov/static/media/logo2.c448f887abf69f5dee0abb8f183ffc3c.svg",
@@ -17,14 +17,15 @@
     "static/media/clock.svg": "/japan_avto_rostov/static/media/clock.1ecbf5fecec9c5a3b3be.svg",
     "static/media/BurgerL.svg": "/japan_avto_rostov/static/media/BurgerL.8e3a3c9ef5ccec8f9ffb.svg",
     "static/media/burgerM.svg": "/japan_avto_rostov/static/media/burgerM.ced1eceeea5d13648004b00e64bce1e7.svg",
+    "static/media/close.svg": "/japan_avto_rostov/static/media/close.27d3e106724b372195c3.svg",
     "static/media/EllipseNoActiv.svg": "/japan_avto_rostov/static/media/EllipseNoActiv.edc6da2a54f63ce5708ea60dd8646565.svg",
     "static/media/EllipseA.svg": "/japan_avto_rostov/static/media/EllipseA.3cb23ed8ce7cac44574435a256e40f66.svg",
-    "main.a0f04b5d.css.map": "/japan_avto_rostov/static/css/main.a0f04b5d.css.map",
-    "main.8f97fc84.js.map": "/japan_avto_rostov/static/js/main.8f97fc84.js.map",
+    "main.c307a873.css.map": "/japan_avto_rostov/static/css/main.c307a873.css.map",
+    "main.2636d6d7.js.map": "/japan_avto_rostov/static/js/main.2636d6d7.js.map",
     "787.adc66e27.chunk.js.map": "/japan_avto_rostov/static/js/787.adc66e27.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a0f04b5d.css",
-    "static/js/main.8f97fc84.js"
+    "static/css/main.c307a873.css",
+    "static/js/main.2636d6d7.js"
   ]
 }
